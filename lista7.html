@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicios Lógica Programação - Lista 7</title>
+        <link rel="stylesheet" href="lista7.css">
+    </head>
+    <body>
+        <h1>Escolha uma das abas abaixo</h1>
+
+        <div class="exercicio">
+            <h2>Adivinhe o número</h2>
+            <h3>Insira um número qualquer, entre 0 e 50, para descobrir se ele existe no vetor salvo.</h3>
+            <input id="numInputUsuario" type="number" placeholder="número"><br>
+            <button onclick="verificarNumeroVetor()">Verificar</button>
+            <button onclick="limparDadosVetor()">Tentar novamente</button>
+            <p id="resEx1"></p>
+        </div>
+
+        <div class="exercicio">
+            <h2>Cadastro de doenças infecciosas</h2>
+            <button onclick="cadastrarDoencas()">Cadastrar doenças</button>
+            <p id="resEx2"></p>
+
+        </div>
+        <div class="exercicio">
+            <h2>Encomendas de flores</h2>
+            <h3>Flores disponíveis</h3>
+            <p>Rosa (R$12,60), Begônia (R$8,50), Dália (R$15,45), Orquídea (R$22,30), Tulipa (R$6,25), Bromélia (R$7,90), Girassol (R$9,20).</p>
+            <button onclick="encomendarFLores()">Encomendar</button>
+        </div>
+
+        <script src="lista7.js"></script>
+    </body>
+</html>

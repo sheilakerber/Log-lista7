@@ -1,0 +1,54 @@
+body {
+    background-color: rgba(73, 138, 208, 0.3);
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    padding: 7px;
+    margin: 20px 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: rgba(129, 129, 237);
+}
+
+h3 {
+    color: rgba(129, 129, 237, 0.7);
+}
+
+p {
+    margin: 5%;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    font-size: 12pt;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-bottom: 3%;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    font-size: 11pt;
+    border-radius: 8px;
+    background-color: rgba(145, 79, 192, 0.2);
+    border: 1px solid rgb(145, 79, 192);
+    color: black;
+    margin-bottom: 3%;
+}
+
+button:hover {
+    background-color: rgb(145, 79, 192);
+    color: white;
+    cursor: pointer;
+}
